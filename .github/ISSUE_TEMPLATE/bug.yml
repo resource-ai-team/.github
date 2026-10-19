@@ -1,4 +1,4 @@
-name: 버그
+name: 버그 (fix)
 description: 잘못 동작하는 부분 신고
 title: "[fix] "
 labels: ["fix"]

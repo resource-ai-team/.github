@@ -1,4 +1,4 @@
-name: 작업
+name: 작업 (chore)
 description: 설정·문서·리팩터링 등 기능이 아닌 작업
 title: "[chore] "
 labels: ["chore"]
