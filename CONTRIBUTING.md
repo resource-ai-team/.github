@@ -104,7 +104,7 @@ git push -u origin feat/T-010-company-update
 1. 대상 브랜치는 항상 **develop**
 2. PR 템플릿을 채움 (관련 이슈, 변경 내용, 테스트 결과)
 3. **CI 통과 + 리뷰 승인 1명** 후 병합
-4. 병합 방식은 **Squash and merge**. 병합 후 작업 브랜치는 삭제
+4. 병합 방식은 **Create a merge commit** 하나만 사용함 (작업 PR, 릴리스 PR 모두). 병합 후 작업 브랜치는 자동 삭제
 5. PR 하나는 한 가지 목적만 담음. 기능과 리팩터링을 섞지 않음
 
 ### 리뷰 기준
