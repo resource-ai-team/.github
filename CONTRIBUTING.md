@@ -31,7 +31,7 @@ frontend ──HTTP──▶ server ──HTTP/MCP──▶ ai
 | --- | --- |
 | 필드·엔드포인트 **추가** | 자유 |
 | 필드 **삭제·이름 변경·타입 변경** | 호출하는 쪽 담당자와 합의 후, 이슈에 기록 |
-| server ↔ ai 형식 변경 | ai 레포의 스키마 폴더는 CODEOWNERS로 server 담당자 승인 필수 |
+| server ↔ ai 형식 변경 | ai 레포의 스키마 폴더(`src/resource_ai/api/schemas/`)를 바꾸는 PR은 server 담당자를 리뷰어로 지정하고 승인 후 병합 |
 
 ## 2. 로컬 개발 환경
 
